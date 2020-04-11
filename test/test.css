@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/* reset.css */
+
+html,body {width: 100%; height: 100%; font-family: sans-serif; }
+html,body,div,ul,ol,li,dl,dt,dd,p,pre,img,
+h1,h2,h3,h4,h5,h6,
+figure,figcaption,nav,footer,header,section,article,
+aside,main { margin: 0; padding:0; border: 0; outline: 0; }
+
+ul,ol,li {list-style: none;}
+
+figure,figcaption,nav,footer,header,section,article,
+aside,main {display:block;}
+
+button{border: 0; background-color: transparent; cursor: pointer; border-radius: 0;}
+
+
+/* common.ccs */
+.hidden { position: absolute; z-index: -1; width: 0; height: 0; overflow: hidden; }
+.clearfix:after, .clearfix::after{content: " "; display: block; clear:both;}
+
+/* main.css */
+#wrap {width:1600px; height:auto; margin:auto;}
+
+/* headBox */
+#headBox {}
+.head_link
+.head_textBox
+h1 {}
+h6 {}
+#naviBox
+#naviBox > ul
+
+/* viewBox */
+#viewbox
+.main_imgBox
+h2
+.big_imgBox
+h4
+.clickBox
+
+/* kindleBox */
+#kindleBox
+.kindle_textBox
+h3
+h5
+
+#kindle_imgBox
+#kindle_imgBox > ul
+
+/* infoBox */
+#infoBox
+h2 {잠그기}
+.info_area
+.info_area > ul
+
+.snsBox
+.snsBox > ul
+
+/* footBox */
+#footBox
+h2 {숨기기}
+.addressBox
+
