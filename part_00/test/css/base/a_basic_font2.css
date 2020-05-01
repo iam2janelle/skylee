@@ -1,0 +1,16 @@
+/ * a_basic_font2.css * /
+
+p{font-family:gt,sans-serif; font-weight:200; font-style:italic; }
+
+p{width:400px; heightL50pxl brder:1px solid #777;
+/* overflow:hidden; */
+white-space:nowap;
+text-overflow:ellipsis;
+}
+
+.overflow{width:300px; height:200px; bmargin:10px auto; background-color: #acc;
+					overflow:visible; overflow-y:auto; }
+
+.overflow>span{display:block; width:100%; height:100%; background-color:#faa; 
+								overflow: visible; overflow-y:scroll;
+								padding-right: 40px; }
